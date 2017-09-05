@@ -1,0 +1,14 @@
+{
+  "generator-chisel": {
+    "config": {
+      "name": "Test Johndoe",
+      "author": "Xfive",
+      "projectType": "fe",
+      "nameSlug": "test-johndoe",
+      "nameCamel": "TestJohndoe",
+      "features": {
+        "has_babel": true
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <title>
+    {{ pageName }} - Test Johndoe
+  </title>
+  <link rel="stylesheet" property="stylesheet" href="{{ revisionedPath('styles/main.css') }}" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.querySelector('html').classList.remove('no-js');</script>
+
+  {% block head %}
+  {% endblock %}
+</head>
+
+<body class="{{body_class}}">
+  {% block header %}
+    {% include 'components/header.twig' %}
+  {% endblock %}
+  
+
+  <main class="o-wrapper">
+    {% block content %}
+      Sorry, no content
+    {% endblock %}
+  </main>
+
+  {% block footer %}
+    {% include 'components/footer.twig' %}
+  {% endblock %}
+  <script src="{{ revisionedPath('scripts/bundle.js') }}" async></script>
+</body>
+</html>
